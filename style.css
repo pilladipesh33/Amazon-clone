@@ -1,0 +1,144 @@
+*{
+    margin: 0;       /*TO ADD NO INITIAL MARGIN*/
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover{
+     border: 2px solid white;           /* TO ADD HOVERING OR SHOW OUTLINE IN DIV WHEN MOUSE HOVER OVER IT  */
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* BOX 2 */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* BOX 3 */
+.nav-search{
+    display: flex;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+   color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange
+}
+
+/* BOX 4 */
+.nav-lang{
+    display: flex;
+}
+.lang-select{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+/* BOX 5 */
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* BOX 6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 39px;
+    padding-inline-end: 39px;
+}
+
+.panel-opts p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-opts{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals p{
+    font-size: 0.9rem;
+    font-size: 700;
+}
